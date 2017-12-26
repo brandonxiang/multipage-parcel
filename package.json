@@ -1,0 +1,26 @@
+{
+  "name": "multipage-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node build/dev.js",
+    "build": "node build/build.js",
+    "test": "parcel build src/i.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonxiang/multipage-parcel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonxiang/multipage-parcel/issues"
+  },
+  "homepage": "https://github.com/brandonxiang/multipage-parcel#readme",
+  "devDependencies": {
+    "glob": "^7.1.2",
+    "parcel-bundler": "^1.3.1"
+  }
+}
